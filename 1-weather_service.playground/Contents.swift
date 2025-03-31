@@ -95,6 +95,7 @@ class WeatherService {
     }
 
     func fetchWeather(for city: String, completion: @escaping @Sendable (Result<Weather, Error>) -> Void) {
+        // Example: let url = URL(string: "https://api.example.com/weather?city=\(city)")!
         fatalError("fetchWeather not implemented")
     }
 }
